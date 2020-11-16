@@ -369,7 +369,7 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 1px #EAEAEA solid;
+  border-top: 1px {{ site.footer-border-col | default: "#FFFFFF"}} solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
@@ -585,6 +585,13 @@ footer .footer-custom-content {
 
 .tag-btn {
   margin: 0.3125rem;
+  background-color: {{ site.secondary-col }};
+  border-color: {{ site.primary-col }};
+}
+
+.tag-btn:hover {
+  background-color: {{ site.primary-col }};
+  border-color: {{ site.primary-col }};
 }
 
 #full-tags-list {
@@ -864,6 +871,7 @@ pre {
   margin: 0;
 }
 .highlight > pre {
+  background-color: {{ site.secondary-col }};
   background-image: linear-gradient(
     rgba(0,0,0,0.03), rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.02) 1.5em, rgba(0,0,0,0.02) 3em);
   background-size: auto 3em;
@@ -883,7 +891,7 @@ pre {
   margin: 0;
 }
 .highlight pre.lineno {
-  color: rgba(0,0,0,0.3);
+  color: rgba(0,0,0,0.77);
   border-radius: 0;
   border-right: 2px solid #444;
 }
