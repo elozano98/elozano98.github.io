@@ -1,16 +1,10 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Let me introduce myself...
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Welcome to my blog! My name is Eric Lozano and I am very passionate about artificial intelligence, machine learning and NLP.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I am currently working as a NLP engineer at [Hubtype](https://www.hubtype.com/).
+My main job is developing the Natural Language Understanding (NLU) package for [Botonic](https://botonic.io/), a full-stack serverless framework that combines the power of React and Tensorflow to create amazing conversational apps.
