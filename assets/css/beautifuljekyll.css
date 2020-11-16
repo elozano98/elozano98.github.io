@@ -871,9 +871,9 @@ pre {
   margin: 0;
 }
 .highlight > pre {
-  background-color: #F9F9F9;
+  background-color: {{ site.secondary-col }};
   background-image: linear-gradient(
-    rgba(255,255,255,0.03), rgba(255,255,255,0.03) 1.5em, rgba(255,255,255,0.02) 1.5em, rgba(255,255,255,0.02) 3em);
+    rgba(0,0,0,0.03), rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.02) 1.5em, rgba(0,0,0,0.02) 3em);
   background-size: auto 3em;
   background-position-y: 0.625rem;
   border: 1px solid rgba(0,0,0,0.1);
