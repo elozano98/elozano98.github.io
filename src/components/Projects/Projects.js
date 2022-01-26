@@ -23,7 +23,7 @@ function Projects() {
               isBlog={false}
               title="Genetic Algorithm learns how to play Flappy Bird"
               description="Implementation of the Flappy Bird game and a Genetic Algorithm that uses a Neural Network to learn how to play the game even better than a human does."
-              link="https://github.com/soumyajit4419/Chatify"
+              link="https://github.com/elozano98/Flappy-bird---GA"
             />
           </Row>
           <Row className="project-card">
@@ -32,7 +32,7 @@ function Projects() {
               isBlog={false}
               title="Genetic Algorithm learns how to play Flappy Bird"
               description="Implementation of the Flappy Bird game and a Genetic Algorithm that uses a Neural Network to learn how to play the game even better than a human does."
-              link="https://github.com/soumyajit4419/Chatify"
+              link="https://github.com/elozano98/Flappy-bird---GA"
             />
           </Row>
           <Row className="project-card">
@@ -41,7 +41,7 @@ function Projects() {
               isBlog={false}
               title="Genetic Algorithm learns how to play Flappy Bird"
               description="Implementation of the Flappy Bird game and a Genetic Algorithm that uses a Neural Network to learn how to play the game even better than a human does."
-              link="https://github.com/soumyajit4419/Chatify"
+              link="https://github.com/elozano98/Flappy-bird---GA"
             />
           </Row>
         </Col>
