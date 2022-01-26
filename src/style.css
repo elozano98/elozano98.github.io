@@ -596,6 +596,7 @@ html {
   list-style: none !important;
   text-align: left !important;
   padding-left: 1px !important;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 767px) {

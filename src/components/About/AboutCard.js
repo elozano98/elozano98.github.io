@@ -28,16 +28,16 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <FaGamepad /> Playing computer games.
+              <FaGamepad /> &ensp; Playing computer games.
             </li>
             <li className="about-activity">
-              <IoMdPerson /> Hanging out with friends.
+              <IoMdPerson /> &ensp; Hanging out with my friends.
             </li>
             <li className="about-activity">
-              <ImAirplane /> Travelling.
+              <ImAirplane /> &ensp; Travelling.
             </li>
             <li className="about-activity">
-              <ImBook /> Reading sci-fi books.
+              <ImBook /> &ensp; Reading sci-fi books.
             </li>
           </ul>
         </blockquote>
