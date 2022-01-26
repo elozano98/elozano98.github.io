@@ -30,7 +30,7 @@ function Home2() {
               <br /> <br />
               My field of interest is building new{" "}
               <b className="secundary-color">products</b> and{" "}
-              <b className="secundary-color">applications</b> that made ur life
+              <b className="secundary-color">applications</b> that made our life
               easier by using the last Deep Learning models.
               <br />
               <br />
