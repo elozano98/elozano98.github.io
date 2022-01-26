@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.628cc9b7.chunk.css",
-    "main.js": "/static/js/main.0be2166c.chunk.js",
-    "main.js.map": "/static/js/main.0be2166c.chunk.js.map",
+    "main.js": "/static/js/main.e6008672.chunk.js",
+    "main.js.map": "/static/js/main.e6008672.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.602bef71.js",
     "runtime-main.js.map": "/static/js/runtime-main.602bef71.js.map",
     "static/css/2.e7f3f9d7.chunk.css": "/static/css/2.e7f3f9d7.chunk.css",
@@ -15,7 +15,6 @@
     "static/css/main.628cc9b7.chunk.css.map": "/static/css/main.628cc9b7.chunk.css.map",
     "static/js/2.2d269854.chunk.js.LICENSE.txt": "/static/js/2.2d269854.chunk.js.LICENSE.txt",
     "static/media/Soumyajit-Behera.394b6e42.pdf": "/static/media/Soumyajit-Behera.394b6e42.pdf",
-    "static/media/about.aee0f771.png": "/static/media/about.aee0f771.png",
     "static/media/avatar.e1f61333.png": "/static/media/avatar.e1f61333.png",
     "static/media/flappybird.426f8b53.gif": "/static/media/flappybird.426f8b53.gif",
     "static/media/style.css": "/static/media/pre.d4812f51.svg"
@@ -25,6 +24,6 @@
     "static/css/2.e7f3f9d7.chunk.css",
     "static/js/2.2d269854.chunk.js",
     "static/css/main.628cc9b7.chunk.css",
-    "static/js/main.0be2166c.chunk.js"
+    "static/js/main.e6008672.chunk.js"
   ]
 }
