@@ -362,7 +362,7 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: var(--imp-main-color);
+  background: var(--imp-dark-color);
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -386,7 +386,7 @@ html {
 }
 
 .icon-colour {
-  color: var(--imp-secundary-color) !important;
+  color: white !important;
 }
 
 /* --------- */

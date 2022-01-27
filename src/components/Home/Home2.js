@@ -38,7 +38,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={avatar} className="img-fluid" alt="avatar" />
+            <a href="https://www.linkedin.com/in/eric-lozano-ferriz/"><img src={avatar} className="img-fluid" alt="avatar" /></a>
             </Tilt>
           </Col>
         </Row>
@@ -46,7 +46,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>Find me on</h1>
             <p>
-              Feel free to <span className="main-color">connect </span>with me
+              Feel free to <span className="main-color">connect</span> with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

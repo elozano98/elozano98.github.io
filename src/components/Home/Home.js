@@ -23,12 +23,7 @@ function Home() {
                 I'm
                 <strong className="main-name"> Eric Lozano</strong>
               </h1>
-
-              {/* <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div> */}
             </Col>
-
             <Col md={5} className="home-header">
               <Type />
             </Col>
