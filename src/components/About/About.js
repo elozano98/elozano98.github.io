@@ -5,19 +5,20 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
+import Experience from "./Experience";
 
 function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row
+          style={{ justifyContent: "center", padding: "10px", margin: "50px" }}
+        >
           <Col
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
@@ -26,18 +27,63 @@ function About() {
             <Aboutcard />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <b className="main-color">Skillset</b>
-        </h1>
 
-        <Techstack />
+        <Row
+          style={{
+            justifyContent: "center",
+            padding: "10px",
+            margin: "50px",
+          }}
+        >
+          <Col>
+            <h1 className="project-heading">
+              My <b className="main-color">Experience</b>
+            </h1>
+            <Experience />
+          </Col>
+        </Row>
 
-        <h1 className="project-heading">
-          <b className="main-color">Tools</b> I use
-        </h1>
-        <Toolstack />
+        <Row
+          style={{
+            justifyContent: "center",
+            padding: "10px",
+            margin: "50px",
+          }}
+        >
+          <Col>
+            <h1 className="project-heading">
+              Professional <b className="main-color">Skillset</b>
+            </h1>
+            <Techstack />
+          </Col>
+        </Row>
 
-        <Github />
+        <Row
+          style={{
+            justifyContent: "center",
+            padding: "10px",
+            margin: "50px",
+          }}
+        >
+          <Col>
+            <h1 className="project-heading">
+              <b className="main-color">Tools</b> I use
+            </h1>
+            <Toolstack />
+          </Col>
+        </Row>
+
+        <Row
+          style={{
+            justifyContent: "center",
+            padding: "10px",
+            margin: "50px",
+          }}
+        >
+          <Col>
+            <Github />
+          </Col>
+        </Row>
       </Container>
     </Container>
   );

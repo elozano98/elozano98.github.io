@@ -555,6 +555,39 @@ html {
   color: white !important;
 }
 
+.experience-card {
+  border: 1.2px solid rgba(255, 255, 255, 0.637) !important;
+  padding-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px !important;
+  background-color: var(--imp-dark-color);
+}
+
+.experience-card:hover {
+  transform: scale(1.01) !important;
+  overflow: hidden !important;
+  box-shadow: 0px 0px 4px 4px var(--imp-main-color) !important;
+}
+
+.experience-card-img {
+  border-radius: 5px !important;
+  width: 100px;
+}
+
+.experience-card-info {
+  color: #e7e7e7;
+  font-size: medium;
+}
+
+.experience-card-tasks {
+  text-align: justify;
+  padding: 20px;
+}
+.experience-card-task {
+  margin-top: 10px;
+}
+
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
@@ -604,6 +637,7 @@ html {
     padding-top: 0 !important;
   }
 }
+
 /* --------- */
 /* Resume */
 /* --------- */
