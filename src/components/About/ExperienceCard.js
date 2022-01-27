@@ -9,7 +9,11 @@ function ExperienceCard(props) {
         <Col md={2} style={{ marginTop: "10px" }}>
           <a href={props.companyUrl}>
             <Tilt>
-              <img src={props.imgPath} className="experience-card-img" />
+              <img
+                src={props.imgPath}
+                alt="{prop.companyName}"
+                className="experience-card-img"
+              />
             </Tilt>
           </a>
         </Col>
