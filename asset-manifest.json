@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.db4aa704.chunk.css",
-    "main.js": "/static/js/main.f220fdb7.chunk.js",
-    "main.js.map": "/static/js/main.f220fdb7.chunk.js.map",
+    "main.css": "/static/css/main.d5b4e55c.chunk.css",
+    "main.js": "/static/js/main.96647278.chunk.js",
+    "main.js.map": "/static/js/main.96647278.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.602bef71.js",
     "runtime-main.js.map": "/static/js/runtime-main.602bef71.js.map",
     "static/css/2.e7f3f9d7.chunk.css": "/static/css/2.e7f3f9d7.chunk.css",
-    "static/js/2.82d55834.chunk.js": "/static/js/2.82d55834.chunk.js",
-    "static/js/2.82d55834.chunk.js.map": "/static/js/2.82d55834.chunk.js.map",
+    "static/js/2.f504e08a.chunk.js": "/static/js/2.f504e08a.chunk.js",
+    "static/js/2.f504e08a.chunk.js.map": "/static/js/2.f504e08a.chunk.js.map",
     "static/js/3.f0e5a195.chunk.js": "/static/js/3.f0e5a195.chunk.js",
     "static/js/3.f0e5a195.chunk.js.map": "/static/js/3.f0e5a195.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.e7f3f9d7.chunk.css.map": "/static/css/2.e7f3f9d7.chunk.css.map",
-    "static/css/main.db4aa704.chunk.css.map": "/static/css/main.db4aa704.chunk.css.map",
-    "static/js/2.82d55834.chunk.js.LICENSE.txt": "/static/js/2.82d55834.chunk.js.LICENSE.txt",
+    "static/css/main.d5b4e55c.chunk.css.map": "/static/css/main.d5b4e55c.chunk.css.map",
+    "static/js/2.f504e08a.chunk.js.LICENSE.txt": "/static/js/2.f504e08a.chunk.js.LICENSE.txt",
     "static/media/Soumyajit-Behera.394b6e42.pdf": "/static/media/Soumyajit-Behera.394b6e42.pdf",
     "static/media/avatar.e1f61333.png": "/static/media/avatar.e1f61333.png",
     "static/media/flappybird.426f8b53.gif": "/static/media/flappybird.426f8b53.gif",
-    "static/media/style.css": "/static/media/pre.fab353c6.svg"
+    "static/media/style.css": "/static/media/pre.fab353c6.svg",
+    "static/media/tweet-emotion.9d276a7a.png": "/static/media/tweet-emotion.9d276a7a.png",
+    "static/media/tweet-offensive.d1b811ae.jpeg": "/static/media/tweet-offensive.d1b811ae.jpeg",
+    "static/media/tweet-sentiment.68bc5227.png": "/static/media/tweet-sentiment.68bc5227.png",
+    "static/media/twitter.b606ddce.jpg": "/static/media/twitter.b606ddce.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.602bef71.js",
     "static/css/2.e7f3f9d7.chunk.css",
-    "static/js/2.82d55834.chunk.js",
-    "static/css/main.db4aa704.chunk.css",
-    "static/js/main.f220fdb7.chunk.js"
+    "static/js/2.f504e08a.chunk.js",
+    "static/css/main.d5b4e55c.chunk.css",
+    "static/js/main.96647278.chunk.js"
   ]
 }
