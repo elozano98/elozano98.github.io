@@ -377,6 +377,7 @@ html {
   color: var(--imp-secundary-color);
   box-shadow: 0 0 5px var(--imp-secundary-color);
   text-shadow: 0 0 2px var(--imp-secundary-color);
+  text-decoration: none;
 }
 
 .social-icons {

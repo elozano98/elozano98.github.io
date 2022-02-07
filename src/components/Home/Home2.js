@@ -38,7 +38,9 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-            <a href="https://www.linkedin.com/in/eric-lozano-ferriz/"><img src={avatar} className="img-fluid" alt="avatar" /></a>
+              <a href="https://www.linkedin.com/in/eric-lozano-ferriz/">
+                <img src={avatar} className="img-fluid" alt="avatar" />
+              </a>
             </Tilt>
           </Col>
         </Row>
@@ -67,6 +69,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://huggingface.co/elozano"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  🤗
                 </a>
               </li>
             </ul>
