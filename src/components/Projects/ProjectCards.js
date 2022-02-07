@@ -1,38 +1,32 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import { Row, Col, Container } from "react-bootstrap";
 
 function ProjectCards(props) {
   return (
-    <Button variant="primary" href={props.link} target="_blank">
-      <Card className="project-card-view">
-        <Row
-          style={{ paddingTop: "20px", paddingBottom: "20px", margin: "auto" }}
-        >
-          <Col md={4}>
-            <Card.Img
-              variant="top"
-              src={props.imgPath}
-              alt="card-img"
-              className="card-img"
-            />
-          </Col>
-          <Col>
-            <Row>
-              <b>
-                <Card.Title>{props.title}</Card.Title>
-              </b>
-            </Row>
-            <Row>
-              <Card.Text style={{ textAlign: "justify" }}>
-                {props.description}
-              </Card.Text>
-            </Row>
-          </Col>
-        </Row>
-      </Card>
-    </Button>
+    <Container className="project-card">
+      <Row>
+        <Col md={4}>
+          <img
+            src={props.imgPath}
+            className="project-card-img"
+            alt="project-card-img"
+          />
+        </Col>
+        <Col>
+          <Row>
+            <h4 className="project-card-title">{props.title}</h4>
+          </Row>
+          <Row>
+            <p className="project-card-description">{props.description}</p>
+          </Row>
+          <Row>
+            <a href={props.link} className="project-card-button" target="blank">
+              Visit project site!
+            </a>
+          </Row>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 export default ProjectCards;

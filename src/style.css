@@ -442,11 +442,77 @@ html {
 }
 
 .project-card {
-  padding-top: 25px !important;
-  padding-bottom: 25px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 25px !important;
+  transition: all 0.5s ease 0s !important;
+  border: 1.7px solid rgba(255, 255, 255, 0.637) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  border-radius: 5px !important;
+}
+
+.project-card:hover {
+  box-shadow: 0px 0px 8px 4px var(--imp-main-color) !important;
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  border: 1.7px solid rgba(255, 255, 255, 0.637) !important;
+}
+
+.project-card-img {
+  height: 180px !important;
+  width: 270px !important;
+  border-radius: 20px !important;
+}
+
+.project-card-title {
+  margin: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.project-card-description {
+  margin: 10px;
+  text-align: justify;
+  padding-right: 20px;
+}
+
+.project-card-button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px !important;
+  background-color: var(--imp-dark-color);
+  color: white;
+  border: 1px solid white;
+}
+
+.project-card-button:hover {
+  color: black;
+  text-decoration: none;
+  background-color: var(--imp-main-color);
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .project-card-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-card-description {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .project-card-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .project-card-view {
@@ -456,6 +522,9 @@ html {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  width: 900px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .project-card-view:hover {
   box-shadow: 0px 0px 8px 4px var(--imp-main-color) !important;
@@ -465,24 +534,21 @@ html {
 }
 
 .card-img {
-  height: 150px !important;
-  width: 250px !important;
+  height: 180px !important;
+  width: 270px !important;
   margin: auto;
   padding: 20px !important;
   opacity: 0.8 !important;
-  border-radius: 4px !important;
+  border-radius: 25px !important;
 }
 
 .card-title {
-  margin: auto;
-  padding: 10px;
+  margin-top: 20px;
 }
 
 .card-text {
-  margin: auto;
-  padding: 10px;
-  margin: auto;
-  margin-right: 10px;
+  margin-top: 10px;
+  padding-right: 10%;
   text-align: justify;
 }
 
