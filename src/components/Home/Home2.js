@@ -15,23 +15,21 @@ function Home2() {
               Let me <span className="main-color"> introduce </span> myself
             </h1>
             <p className="home-about-body">
-              I am a computer engineer passionate about{" "}
+              I am a Machine Learning Engineer passionate about{" "}
               <b className="secundary-color">Artificial Intelligence</b> and
               specialized in{" "}
               <b className="secundary-color">Natural Language Processing</b>.
-              <br /> <br />
-              My favourite programming language is{" "}
-              <b className="secundary-color">Python</b> and I have experience
-              using the most famous Deep Learning frameworks such as{" "}
+              <br /> <br />I have years of experiece working with the most
+              famous Deep Learning frameworks such as{" "}
               <b className="secundary-color">TensorFlow</b>,{" "}
-              <b className="secundary-color">PyTorch</b>,{" "}
-              <b className="secundary-color">Transformers</b> and{" "}
-              <b className="secundary-color">spaCy</b>.
+              <b className="secundary-color">PyTorch</b>, and{" "}
+              <b className="secundary-color">Transformers</b>.
               <br /> <br />
               My field of interest is building new{" "}
               <b className="secundary-color">products</b> and{" "}
-              <b className="secundary-color">applications</b> that made our life
-              easier by using the last Deep Learning models.
+              <b className="secundary-color">services</b> that made our life
+              easier through Artificial Intelligence by using{" "}
+              <b className="secundary-color">state-of-the-art</b> models.
               <br />
               <br />
             </p>
