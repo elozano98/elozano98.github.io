@@ -11,8 +11,8 @@ html {
     rgba(5, 5, 5, 0.863)
   );
 
-  --imp-main-color: #5dffa0;
-  --imp-secundary-color: #48ca7e;
+  --imp-main-color: #3dccf7;
+  --imp-secundary-color: #77dbfa;
   --imp-dark-color: #222224d8;
 }
 
@@ -246,7 +246,7 @@ html {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg2.gif);
+  background-image: var(--image-gradient), url(./Assets/home-bg.gif);
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
