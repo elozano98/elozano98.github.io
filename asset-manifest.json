@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a41da07.chunk.css",
-    "main.js": "/static/js/main.1bfb838c.chunk.js",
-    "main.js.map": "/static/js/main.1bfb838c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d0572a1b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d0572a1b.js.map",
+    "main.css": "/static/css/main.6447c795.chunk.css",
+    "main.js": "/static/js/main.0785f0ba.chunk.js",
+    "main.js.map": "/static/js/main.0785f0ba.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a9097aee.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a9097aee.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.f9655148.chunk.js": "/static/js/2.f9655148.chunk.js",
-    "static/js/2.f9655148.chunk.js.map": "/static/js/2.f9655148.chunk.js.map",
-    "static/js/3.4f0d8eff.chunk.js": "/static/js/3.4f0d8eff.chunk.js",
-    "static/js/3.4f0d8eff.chunk.js.map": "/static/js/3.4f0d8eff.chunk.js.map",
+    "static/js/2.f9b549ea.chunk.js": "/static/js/2.f9b549ea.chunk.js",
+    "static/js/2.f9b549ea.chunk.js.map": "/static/js/2.f9b549ea.chunk.js.map",
+    "static/js/3.5ae4e438.chunk.js": "/static/js/3.5ae4e438.chunk.js",
+    "static/js/3.5ae4e438.chunk.js.map": "/static/js/3.5ae4e438.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.4a41da07.chunk.css.map": "/static/css/main.4a41da07.chunk.css.map",
-    "static/js/2.f9655148.chunk.js.LICENSE.txt": "/static/js/2.f9655148.chunk.js.LICENSE.txt",
+    "static/css/main.6447c795.chunk.css.map": "/static/css/main.6447c795.chunk.css.map",
+    "static/js/2.f9b549ea.chunk.js.LICENSE.txt": "/static/js/2.f9b549ea.chunk.js.LICENSE.txt",
     "static/media/avatar.2be7d2ef.png": "/static/media/avatar.2be7d2ef.png",
     "static/media/flappybird.426f8b53.gif": "/static/media/flappybird.426f8b53.gif",
-    "static/media/style.css": "/static/media/pre.fab353c6.svg",
+    "static/media/style.css": "/static/media/pre.644421b2.svg",
     "static/media/tweet-emotion.9d276a7a.png": "/static/media/tweet-emotion.9d276a7a.png",
     "static/media/tweet-offensive.d1b811ae.jpeg": "/static/media/tweet-offensive.d1b811ae.jpeg",
     "static/media/tweet-sentiment.68bc5227.png": "/static/media/tweet-sentiment.68bc5227.png",
     "static/media/twitter.b606ddce.jpg": "/static/media/twitter.b606ddce.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d0572a1b.js",
+    "static/js/runtime-main.a9097aee.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.f9655148.chunk.js",
-    "static/css/main.4a41da07.chunk.css",
-    "static/js/main.1bfb838c.chunk.js"
+    "static/js/2.f9b549ea.chunk.js",
+    "static/css/main.6447c795.chunk.css",
+    "static/js/main.0785f0ba.chunk.js"
   ]
 }
