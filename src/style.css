@@ -608,18 +608,29 @@ html {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  padding-bottom: 50px !important;
 }
 
 /* --------- */
 /* About */
 /* --------- */
 
-.about-section {
+#about-content {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+}
+
+.about-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: "center";
+}
+
+.about-section h1 {
+  padding-bottom: 50px;
 }
 
 .experience-card {

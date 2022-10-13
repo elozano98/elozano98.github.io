@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
+import { AiFillCalendar } from "react-icons/ai";
+import { MdLocationOn } from "react-icons/md";
+import { FaBuilding } from "react-icons/fa";
 
 function ExperienceCard(props) {
   return (
@@ -21,19 +24,53 @@ function ExperienceCard(props) {
           <Row>
             <h3>{props.position}</h3>
           </Row>
-          <Row className="experience-card-info">{props.companyName}</Row>
           <Row className="experience-card-info">
-            {props.start.toLocaleString("en", { month: "long" }) +
-              ". " +
-              props.start.getFullYear() +
-              " - "}{" "}
-            {props.end
-              ? props.end.toLocaleString("en", { month: "long" }) +
-                ". " +
-                props.end.getFullYear()
-              : "Now"}
+            <Col
+              md="auto"
+              style={{
+                paddingRight: "0px",
+              }}
+            >
+              <FaBuilding />
+            </Col>
+            <Col md="auto" style={{ paddingLeft: "6px" }}>
+              {props.companyName}
+            </Col>
           </Row>
-          <Row className="experience-card-info">{props.location}</Row>
+          <Row className="experience-card-info">
+            <Col
+              md="auto"
+              style={{
+                paddingRight: "0px",
+              }}
+            >
+              <AiFillCalendar />
+            </Col>
+            <Col md="auto" style={{ paddingLeft: "6px" }}>
+              {props.start.toLocaleString("en", { month: "long" }) +
+                ". " +
+                props.start.getFullYear() +
+                " - "}{" "}
+              {props.end
+                ? props.end.toLocaleString("en", { month: "long" }) +
+                  ". " +
+                  props.end.getFullYear()
+                : "Now"}
+            </Col>
+          </Row>
+          <Row className="experience-card-info">
+            <Col
+              md="auto"
+              style={{
+                paddingRight: "0px",
+              }}
+            >
+              <MdLocationOn />
+            </Col>
+            <Col md="auto" style={{ paddingLeft: "6px" }}>
+              {props.location}
+            </Col>
+          </Row>
           <Row>
             <p>
               <ul className="experience-card-tasks">
