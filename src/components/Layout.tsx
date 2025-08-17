@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import { motion } from 'framer-motion';
-import { theme } from '../styles/theme';
+import React from "react";
+import styled from "@emotion/styled";
+import { motion } from "framer-motion";
+import { theme } from "../styles/theme";
 
 const LayoutContainer = styled.div`
   min-height: 100vh;
@@ -47,9 +47,6 @@ interface LayoutProps {
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <LayoutContainer>
-      <Header>
-        <Logo href="/">Eric Lozano</Logo>
-      </Header>
       <Main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

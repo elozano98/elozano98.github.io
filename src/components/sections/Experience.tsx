@@ -8,7 +8,7 @@ import serimagLogo from "../../assets/images/serimag.jpeg";
 const ExperienceSection = styled.section`
   position: relative;
   background: ${theme.colors.background};
-  padding: ${theme.spacing["5xl"]} 0;
+  padding: ${theme.spacing["4xl"]} 0;
   overflow: hidden;
 `;
 
@@ -21,19 +21,19 @@ const ExperienceContainer = styled.div`
 const ExperienceCard = styled(motion.div)`
   position: relative;
   background: white;
-  border-radius: 32px;
-  padding: ${theme.spacing["4xl"]};
-  margin-bottom: ${theme.spacing["5xl"]};
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 8px rgba(0, 0, 0, 0.06),
-    0 10px 20px rgba(0, 0, 0, 0.08);
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  padding: ${theme.spacing["3xl"]};
+  margin-bottom: ${theme.spacing["4xl"]};
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02), 0 3px 6px rgba(0, 0, 0, 0.03),
+    0 8px 16px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 6px 12px rgba(0, 0, 0, 0.08),
-      0 12px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02), 0 4px 8px rgba(0, 0, 0, 0.04),
+      0 10px 20px rgba(0, 0, 0, 0.06);
   }
 
   &:last-child {
@@ -41,7 +41,8 @@ const ExperienceCard = styled(motion.div)`
   }
 
   @media (max-width: ${theme.breakpoints.xl}) {
-    padding: ${theme.spacing["2xl"]};
+    padding: ${theme.spacing.xl};
+    margin-bottom: ${theme.spacing["3xl"]};
   }
 `;
 
@@ -53,11 +54,17 @@ const CardHeader = styled.div`
 `;
 
 const CompanyLogo = styled(motion.img)`
-  width: 100px;
-  height: 100px;
-  border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
   object-fit: cover;
   background-color: transparent;
+
+  @media (max-width: ${theme.breakpoints.md}) {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+  }
 `;
 
 const HeaderContent = styled.div`
@@ -67,13 +74,17 @@ const HeaderContent = styled.div`
 `;
 
 const RoleTitle = styled(motion.h2)`
-  font-size: ${theme.typography.sizes["4xl"]};
+  font-size: ${theme.typography.sizes["3xl"]};
   font-weight: ${theme.typography.weights.bold};
   margin-bottom: ${theme.spacing.sm};
   background: ${theme.colors.gradient.primary};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.2;
+
+  @media (max-width: ${theme.breakpoints.md}) {
+    font-size: ${theme.typography.sizes["2xl"]};
+  }
 `;
 
 const CompanyInfo = styled(motion.div)`
@@ -81,22 +92,31 @@ const CompanyInfo = styled(motion.div)`
   align-items: center;
   gap: ${theme.spacing.sm};
   color: ${theme.colors.gray[500]};
-  font-size: ${theme.typography.sizes.xl};
+  font-size: ${theme.typography.sizes.lg};
+
+  @media (max-width: ${theme.breakpoints.md}) {
+    font-size: ${theme.typography.sizes.base};
+  }
 `;
 
 const Description = styled(motion.p)`
-  font-size: ${theme.typography.sizes.xl};
+  font-size: ${theme.typography.sizes.lg};
   line-height: 1.6;
   color: ${theme.colors.gray[500]};
-  margin-bottom: ${theme.spacing["4xl"]};
-  max-width: 900px;
+  margin-bottom: ${theme.spacing["2xl"]};
+  max-width: 800px;
+
+  @media (max-width: ${theme.breakpoints.md}) {
+    font-size: ${theme.typography.sizes.base};
+    margin-bottom: ${theme.spacing.xl};
+  }
 `;
 
 const AchievementsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: ${theme.spacing["3xl"]};
-  margin-bottom: ${theme.spacing["4xl"]};
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: ${theme.spacing.xl};
+  margin-bottom: ${theme.spacing["2xl"]};
 
   @media (max-width: ${theme.breakpoints.lg}) {
     grid-template-columns: 1fr;
@@ -105,33 +125,46 @@ const AchievementsGrid = styled.div`
 
 const Achievement = styled(motion.div)`
   position: relative;
-  padding: ${theme.spacing.xl};
+  padding: ${theme.spacing.lg};
   background: ${theme.colors.gray[100]};
-  border-radius: 24px;
+  border-radius: 16px;
+  border: 1px solid ${theme.colors.gray[100]};
   transition: all 0.3s ease;
 
   &:hover {
-    transform: translateY(-4px);
-    background: ${theme.colors.gray[200]};
+    transform: translateY(-2px);
+    background: ${theme.colors.gray[100]};
   }
 `;
 
 const AchievementTitle = styled.h3`
   color: ${theme.colors.primary};
-  font-size: ${theme.typography.sizes.xl};
+  font-size: ${theme.typography.sizes.lg};
   font-weight: ${theme.typography.weights.semibold};
-  margin-bottom: ${theme.spacing.base};
+  margin-bottom: ${theme.spacing.sm};
+
+  @media (max-width: ${theme.breakpoints.md}) {
+    font-size: ${theme.typography.sizes.base};
+  }
 `;
 
 const AchievementDescription = styled.p`
   color: ${theme.colors.gray[500]};
-  font-size: ${theme.typography.sizes.lg};
-  line-height: 1.6;
+  font-size: ${theme.typography.sizes.base};
+  line-height: 1.5;
+
+  @media (max-width: ${theme.breakpoints.md}) {
+    font-size: ${theme.typography.sizes.sm};
+  }
 `;
 
 const TechSection = styled(motion.div)`
-  border-top: 1px solid ${theme.colors.gray[200]};
-  padding-top: ${theme.spacing["3xl"]};
+  border-top: 1px solid ${theme.colors.gray[100]};
+  padding-top: ${theme.spacing.xl};
+
+  @media (max-width: ${theme.breakpoints.md}) {
+    padding-top: ${theme.spacing.lg};
+  }
 `;
 
 const TechTitle = styled.h4`
@@ -150,18 +183,23 @@ const TechGrid = styled.div`
 
 const TechTag = styled(motion.span)`
   display: inline-block;
-  padding: ${theme.spacing.base} ${theme.spacing.xl};
+  padding: ${theme.spacing.sm} ${theme.spacing.lg};
   background: ${theme.colors.gradient.primary};
   color: white;
-  border-radius: 24px;
-  font-size: ${theme.typography.sizes.base};
+  border-radius: 12px;
+  font-size: ${theme.typography.sizes.sm};
   font-weight: ${theme.typography.weights.medium};
   transition: all 0.3s ease;
   opacity: 0.9;
 
   &:hover {
     opacity: 1;
-    transform: translateY(-2px);
+    transform: translateY(-1px);
+  }
+
+  @media (max-width: ${theme.breakpoints.md}) {
+    padding: ${theme.spacing.xs} ${theme.spacing.base};
+    font-size: ${theme.typography.sizes.xs};
   }
 `;
 
