@@ -1,0 +1,66 @@
+export const theme = {
+  colors: {
+    primary: "#1d1d1f",
+    secondary: "#86868b",
+    background: "#fbfbfd",
+    accent: "#8B5CF6",
+    gray: {
+      100: "#f5f5f7",
+      200: "#e8e8ed",
+      300: "#d2d2d7",
+      400: "#86868b",
+      500: "#6e6e73",
+    },
+    gradient: {
+      subtle: "linear-gradient(180deg, #fbfbfd 0%, #f5f5f7 100%)",
+      primary: "linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%)",
+      secondary: "linear-gradient(135deg, #7C3AED 0%, #DB2777 100%)",
+      tertiary: "linear-gradient(135deg, #9333EA 0%, #F472B6 100%)",
+    },
+  },
+  typography: {
+    fontFamily:
+      'SF Pro Display, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
+    weights: {
+      regular: 400,
+      medium: 500,
+      semibold: 600,
+      bold: 700,
+    },
+    sizes: {
+      xs: "0.75rem",
+      sm: "0.875rem",
+      base: "1.125rem",
+      lg: "1.25rem",
+      xl: "1.5rem",
+      "2xl": "2rem",
+      "3xl": "2.5rem",
+      "4xl": "3.5rem",
+      "5xl": "4.5rem",
+      "6xl": "5.5rem",
+    },
+  },
+  spacing: {
+    xs: "0.5rem",
+    sm: "0.75rem",
+    base: "1rem",
+    lg: "1.5rem",
+    xl: "2rem",
+    "2xl": "3rem",
+    "3xl": "4rem",
+    "4xl": "6rem",
+    "5xl": "8rem",
+  },
+  breakpoints: {
+    sm: "640px",
+    md: "768px",
+    lg: "1024px",
+    xl: "1280px",
+    "2xl": "1536px",
+  },
+  transitions: {
+    default: "0.3s ease-in-out",
+    fast: "0.15s ease-in-out",
+    slow: "0.45s ease-in-out",
+  },
+};
