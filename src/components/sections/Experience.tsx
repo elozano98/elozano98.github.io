@@ -13,7 +13,7 @@ const ExperienceSection = styled.section`
 `;
 
 const ExperienceContainer = styled.div`
-  max-width: 1400px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 ${theme.spacing.xl};
 `;
@@ -114,11 +114,11 @@ const Description = styled(motion.p)`
 
 const AchievementsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: ${theme.spacing.xl};
   margin-bottom: ${theme.spacing["2xl"]};
 
-  @media (max-width: ${theme.breakpoints.lg}) {
+  @media (max-width: ${theme.breakpoints.md}) {
     grid-template-columns: 1fr;
   }
 `;
@@ -374,24 +374,26 @@ export const Experience: React.FC = () => {
             </Description>
 
             <AchievementsGrid>
-              {exp.achievements.map((achievement, achievementIndex) => (
-                <Achievement
-                  key={achievement.title}
-                  variants={achievementVariants}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  transition={{
-                    duration: 0.5,
-                    delay: 0.2 + achievementIndex * 0.1,
-                  }}
-                >
-                  <AchievementTitle>{achievement.title}</AchievementTitle>
-                  <AchievementDescription>
-                    {achievement.description}
-                  </AchievementDescription>
-                </Achievement>
-              ))}
+              {exp.achievements
+                .slice(0, 4)
+                .map((achievement, achievementIndex) => (
+                  <Achievement
+                    key={achievement.title}
+                    variants={achievementVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                    transition={{
+                      duration: 0.5,
+                      delay: 0.2 + achievementIndex * 0.1,
+                    }}
+                  >
+                    <AchievementTitle>{achievement.title}</AchievementTitle>
+                    <AchievementDescription>
+                      {achievement.description}
+                    </AchievementDescription>
+                  </Achievement>
+                ))}
             </AchievementsGrid>
 
             <TechSection
