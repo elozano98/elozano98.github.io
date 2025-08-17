@@ -8,19 +8,13 @@ import { AnimatedGradientText } from "../common/Animations";
 import { EmailIcon, LinkedInIcon, GitHubIcon } from "../common/SocialIcons";
 
 const HeroSection = styled(motion.div)`
-  min-height: 75vh;
   width: 100%;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   padding: 0 ${theme.spacing.xl};
-  margin-top: ${theme.spacing["4xl"]};
   background: ${theme.colors.background};
   position: relative;
-
-  @media (max-width: ${theme.breakpoints.md}) {
-    margin-top: ${theme.spacing["3xl"]};
-    min-height: 65vh;
-  }
 `;
 
 const StickyHeader = styled(motion.div)`

@@ -14,7 +14,6 @@ const PageContainer = styled.div`
 `;
 
 const MainContent = styled.div`
-  margin-top: 100vh; // This pushes the content below the hero
   position: relative;
   z-index: 1;
 `;
