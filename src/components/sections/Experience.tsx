@@ -2,6 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import { motion } from "framer-motion";
 import { theme } from "../../styles/theme";
+import { SectionTitle } from "../common/SectionTitle";
 import hubtypeLogo from "../../assets/images/hubtype.jpeg";
 import serimagLogo from "../../assets/images/serimag.jpeg";
 
@@ -316,6 +317,10 @@ export const Experience: React.FC = () => {
   return (
     <ExperienceSection>
       <ExperienceContainer>
+        <SectionTitle
+          title="Experience"
+          subtitle="Building innovative AI solutions and leading technical initiatives that shape the future of technology."
+        />
         {experiences.map((exp, index) => (
           <ExperienceCard
             key={exp.company}

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import { motion } from "framer-motion";
 import { theme } from "../../styles/theme";
+import { SectionTitle } from "../common/SectionTitle";
 
 const Container = styled.div`
   min-height: 100vh;
@@ -16,14 +17,6 @@ const Content = styled.div`
   margin: 0 auto;
   width: 100%;
   padding: 0 ${theme.spacing.xl};
-`;
-
-const Title = styled(motion.h2)`
-  font-size: ${theme.typography.sizes["4xl"]};
-  color: ${theme.colors.primary};
-  margin-bottom: ${theme.spacing["4xl"]};
-  text-align: center;
-  font-weight: ${theme.typography.weights.bold};
 `;
 
 const Grid = styled.div`
@@ -149,14 +142,10 @@ const ExpertiseShowcase: React.FC = () => {
   return (
     <Container>
       <Content>
-        <Title
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-        >
-          Technical Expertise
-        </Title>
+        <SectionTitle
+          title="Technical Expertise"
+          subtitle="Specialized in AI, cloud infrastructure, and modern software development practices."
+        />
         <Grid>
           {expertiseData.map((item, index) => (
             <ExpertiseCard key={item.category} {...item} index={index} />
